@@ -1,0 +1,99 @@
+﻿/* profile.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('Image/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 690px;
+}
+
+.container {
+    
+    width: 700px; /* Adjust the width percentage to make it wider */
+    max-width: 800px; /* Set a maximum width to prevent it from getting too big */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of your CSS remains the same */
+
+
+/* Rest of your CSS remains the same */
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+hr {
+    border: 1px solid #ccc;
+}
+
+.label {
+    font-weight: bold;
+}
+
+    .label,
+    .label + label {
+        margin-top: 10px;
+    }
+
+.label,
+.data {
+    display: block;
+}
+
+.data {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+.admin-logo {
+    display: block;
+    margin: 0 auto 20px; /* Adjust margin as needed */
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+#BackButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #BackButton:hover {
+        background-color: #0056b3; /* Darker blue color on hover */
+    }
+
+
+.profile-table {
+    margin-top: 20px;
+}
+
+    .profile-table table {
+        width: 100%;
+    }
+
+    .profile-table td {
+        padding: 10px;
+    }
+
+.label {
+    font-weight: bold;
+    width: 70px; /* Adjust the width as needed */
+    display: inline-block; /* Ensure the width is respected */
+}
+
+

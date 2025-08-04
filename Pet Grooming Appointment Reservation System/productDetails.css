@@ -1,0 +1,81 @@
+﻿body {
+    background-image: url('Image/adminback2.jpg');
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.form-container {
+    background-color: lemonchiffon;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 600px;
+    margin-right: 10px;
+}
+
+.auto-style1 {
+    width: 280px; /* Adjust maximum width as needed */
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 430px;
+}
+
+h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.form-container input[type="submit"] {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+
+    .form-container input[type="submit"]:hover {
+        background: #a6af13;
+    }
+
+/* CSS to make textboxes wider */
+
+.auto-style1 input[type="text"] {
+    width: 250px; /* Adjust the width as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.PDetails {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-left: 430px;
+}
+
+#back {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #back:hover {
+        background-color: #0056b3; /* Darker blue color on hover */
+    }
+

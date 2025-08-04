@@ -1,0 +1,95 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url('Image/background.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: auto;
+}
+
+.box {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#Back {
+    background: black;
+    color: white;
+    margin-top: 20px;
+    height: 30px;
+}
+
+.cart {
+    width: 1200px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+
+    th:first-child, td:first-child {
+        width: 65px;
+    }
+
+img {
+    width: 50%;
+}
+
+h3, h4 {
+    margin: 0;
+}
+
+
+.cart .quantity {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.cart .total {
+    font-weight: bold;
+}
+
+.payment-details {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.payment input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 1050px;
+}
+
+    .payment input[type="submit"]:hover {
+        background: #a6af13;
+    }

@@ -1,0 +1,50 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url('Image/background.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 200px;
+    margin-left: 550px;
+}
+
+#form1 {
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.box {
+    text-align: center;
+}
+
+.back {
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#Back {
+    background: black;
+    color: white;
+    width: 50px;
+    height: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#Admin, #Staff, #User {
+    background-color: #3498db;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+    #Admin:hover, #Staff:hover, #User:hover {
+        background-color: lightblue;
+    }

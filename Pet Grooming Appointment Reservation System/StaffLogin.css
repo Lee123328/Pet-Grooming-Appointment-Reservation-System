@@ -1,0 +1,110 @@
+﻿body {
+    background-image: url('Image/adminback2.jpg');
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: rgba(192, 192, 192, 0.5); /* Semi-transparent silver background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+
+
+
+
+
+.login-container {
+    width: 100%; /* Adjust the width as needed */
+}
+
+/* Remaining CSS styles remain the same */
+
+
+#UsernameLabel, #PasswordLabel {
+    font-weight: bold; /* Make the labels bold */
+    color: #555; /* Darken the color for better visibility */
+    font-size: 16px; /* Increase the font size */
+}
+
+/* Additional CSS styles for the form controls */
+.form-control {
+    width: calc(100% - 20px); /* Adjust the width of the textboxes */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Remaining CSS styles remain the same */
+
+
+/* Remaining CSS styles remain the same */
+.admin-logo {
+    display: block;
+    margin: 0 auto 20px; /* Adjust margin as needed */
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: orange; /* Bright green color */
+    color: #fff; /* White text color */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for transform and box-shadow */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+}
+
+    .btn-primary:hover {
+        transform: scale(1.05); /* Slightly increase size on hover */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect on hover */
+    }
+
+
+.error-message {
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+#BackButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #BackButton:hover {
+        background-color: #0056b3; /* Darker blue color on hover */
+    }

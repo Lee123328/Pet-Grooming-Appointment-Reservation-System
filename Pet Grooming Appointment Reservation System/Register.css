@@ -1,0 +1,57 @@
+﻿body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Image/background.jpg');
+    background-size: cover;
+    margin-top: 15px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px; 
+}
+
+.formBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+    .formBox h3 {
+        color: black;
+        font-size: 30px;
+        text-align: center;
+    }
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.formBox {
+    width: 100%%;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+
+.formBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: #262626;
+    cursor: pointer;
+}
+
+    .formBox input[type="submit"]:hover {
+        background: #a6af13;
+    }
